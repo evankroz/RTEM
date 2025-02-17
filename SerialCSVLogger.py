@@ -3,7 +3,7 @@ import csv
 import time
 from datetime import datetime
 from time import sleep
-from CountdownTester import loading_bar
+#from CountdownTester import loading_bar
 import glob
 
 #scanning for usb modem ports on laptop'''
