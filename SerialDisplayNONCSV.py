@@ -1,12 +1,13 @@
 import serial
 from datetime import datetime
 import time
-from CountdownTester import loading_bar
+#from CountdownTester import loading_bar
 from time import sleep
 import glob
 
 report = None
-SERIAL_PORT = "/dev/cu.usbmodem1301"
+SERIAL_PORT = "/dev/cu.usbmodem1301" #this depends on the usb port your arduino is plugged in.
+                                     #check with arduino and close the app afterwards, or else you will get a error
 '''
 ports = glob.glob("/dev/cu.*")
 for port in ports:
@@ -43,7 +44,7 @@ def main():
 
                 if line:
                     current_time = time.time()
-                    elapsed_time = current_time - start_time-2.242 #approximate ping time from arduino, just really slow for some reason?
+                    elapsed_time = current_time - start_time-2.242 #approximate ping time from arduino, just about 2.2 seconds, not necessary may be removed.
                     weight = line
 
                     # Print to console
