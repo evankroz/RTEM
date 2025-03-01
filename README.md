@@ -4,23 +4,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/evankroz/RTEM?style=social)](https://github.com/evankroz/RTEM)
 [![GitHub Forks](https://img.shields.io/github/forks/evankroz/RTEM?style=social)](https://github.com/evankroz/RTEM)
 
-## Overview
-
-The Rocket Thrust Evaluation Module (RTEM) is an open-source project dedicated to providing tools and resources for evaluating rocket thrust performance. This repository contains code, schematics, and documentation to assist in the design, analysis, and testing of rocket engines and propulsion systems.
-
-## Features
-
-*   **Code:** Implementations of thrust calculation algorithms and data processing tools.
-*   **Schematics:** Electronic designs for data acquisition and control systems.
-*   **Documentation:** Guides on using the module, understanding rocket thrust principles, and interpreting results.
-
-## Getting Started
-
-### Prerequisites
-
-*   [Python](https://www.python.org/downloads/) (3.7 or higher)
-*   [Arduino IDE](https://www.arduino.cc/en/software) (if using the data acquisition components)
-
+## Structure
 ``` zsh
 RTEM/
 ├── code/ # Source code for thrust calculation and data processing
@@ -36,6 +20,23 @@ RTEM/
 ├── LICENSE # License information (GNU GPL v3)
 └── README.md # This file
 ```
+
+## Overview
+
+The Rocket Thrust Evaluation Module (RTEM) is an open-source project dedicated to providing tools and resources for evaluating rocket thrust performance. This repository contains code, schematics, and documentation to assist in the design, analysis, and testing of rocket engines and propulsion systems.
+
+## Features
+
+*   **Code:** Implementations of thrust calculation algorithms and data processing tools.
+*   **Schematics:** Electronic designs for data acquisition and control systems.
+*   **Documentation:** Guides on using the module, understanding rocket thrust principles, and interpreting results. (Coming Soon!)
+
+## Getting Started
+
+### Prerequisites
+
+*   [Python](https://www.python.org/downloads/) (3.7 or higher)
+*   [Arduino IDE](https://www.arduino.cc/en/software) (if using the data acquisition components)
 
 
 ## Contributing
