@@ -24,14 +24,14 @@ The Rocket Thrust Evaluation Module (RTEM) is an open-source project dedicated t
 ``` zsh
 RTEM/
 ├── code/ # Source code for thrust calculation and data processing
-│ ├── main.py # Main script
-│ ├── utils.py # Utility functions
+│ ├── SerialCSVLogger.py # Logging script
+│ ├── SerialDisplayNONCSV.py # Non logging script
 │ └── ...
 ├── schematics/ # Electronic schematics for data acquisition
 │ ├── thrust_sensor.pdf # Schematic for the thrust sensor interface
 │ └── ...
 ├── docs/ # Documentation and guides
-│ ├── user_manual.pdf # User manual
+│ ├── #soon to come.
 │ └── ...
 ├── LICENSE # License information (GNU GPL v3)
 └── README.md # This file
