@@ -93,6 +93,3 @@ For questions, bug reports, or feature requests, please open an issue on the [Gi
     python SerialDisplayNONCSV.py #for non logging purposes
     python SerialCSVLogger.py #for logging rocket motor thrust
     ```
-
-## Directory Structure
-
