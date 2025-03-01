@@ -19,10 +19,9 @@ The Rocket Thrust Evaluation Module (RTEM) is an open-source project dedicated t
 ### Prerequisites
 
 *   [Python](https://www.python.org/downloads/) (3.7 or higher)
-*   [Libraries TBD - add any needed python libraries here]
 *   [Arduino IDE](https://www.arduino.cc/en/software) (if using the data acquisition components)
 
-### Installation
+### Installation ##(In Progress)
 
 1.  Clone the repository:
 
