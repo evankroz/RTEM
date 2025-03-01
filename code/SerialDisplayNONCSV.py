@@ -1,9 +1,9 @@
-import serial
-from datetime import datetime
+import serial #pip3 install pyserial
+from datetime import datetime #should already be installed, but can be installed with pip3 install datetime
 import time
-from CountdownTester import loading_bar
 from time import sleep
-import glob
+import glob #used for finding serial ports
+#from CountdownTester import loading_bar
 
 report = None
 #SERIAL_PORT = None
