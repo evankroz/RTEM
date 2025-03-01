@@ -21,7 +21,10 @@ The Rocket Thrust Evaluation Module (RTEM) is an open-source project dedicated t
 *   [Python](https://www.python.org/downloads/) (3.7 or higher)
 *   [Arduino IDE](https://www.arduino.cc/en/software) (if using the data acquisition components)
 
-### Installation ##(In Progress)
+
+##  <---------> Work in Progress <--------->
+
+### Installation 
 
 1.  Clone the repository:
 
@@ -32,7 +35,7 @@ The Rocket Thrust Evaluation Module (RTEM) is an open-source project dedicated t
 2.  Install the required Python libraries:
 
     ```
-    pip install -r requirements.txt # Create this file with needed libraries
+    pip install -r requirements.txt #need to create requirements.txt file in future
     ```
 
 ### Usage
@@ -45,7 +48,8 @@ The Rocket Thrust Evaluation Module (RTEM) is an open-source project dedicated t
 2.  Run the main script:
 
     ```
-    python main.py  # or whatever the name of the script is
+    python SerialDisplayNONCSV.py #for non logging purposes
+    python SerialCSVLogger.py #for logging rocket motor thrust
     ```
 
 ## Directory Structure
