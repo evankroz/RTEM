@@ -21,6 +21,47 @@ The Rocket Thrust Evaluation Module (RTEM) is an open-source project dedicated t
 *   [Python](https://www.python.org/downloads/) (3.7 or higher)
 *   [Arduino IDE](https://www.arduino.cc/en/software) (if using the data acquisition components)
 
+RTEM/
+├── code/ # Source code for thrust calculation and data processing
+│ ├── main.py # Main script
+│ ├── utils.py # Utility functions
+│ └── ...
+├── schematics/ # Electronic schematics for data acquisition
+│ ├── thrust_sensor.pdf # Schematic for the thrust sensor interface
+│ └── ...
+├── docs/ # Documentation and guides
+│ ├── user_manual.pdf # User manual
+│ └── ...
+├── LICENSE # License information (GNU GPL v3)
+└── README.md # This file
+
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and commit them with descriptive messages.
+4.  Submit a pull request.
+
+## License
+
+This project is licensed under the GNU General Public License v3. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+*   [Add any people you want to acknowledge here]
+
+## Contact
+
+[Your Name/Organization] - [Your Email]
+
+## Support
+
+For questions, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/evankroz/RTEM/issues).
+
+
 
 
 
