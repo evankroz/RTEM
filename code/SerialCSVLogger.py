@@ -3,24 +3,20 @@ import csv
 import time
 from datetime import datetime
 from time import sleep
-#from CountdownTester import loading_bar
+from CountdownTester import loading_bar
 import glob
 
 #scanning for usb modem ports on laptop'''
 #
 #
-'''
 ports = glob.glob("/dev/cu.*")
 for port in ports:
     if "/dev/cu.usbmodem" in port:
+        res = True
         SERIAL_PORT = port
-        report = True
+        print(port.replace("/dev/cu.", ""))
     else:
-        report = False
-        print("USB MODEM PORT NOT FOUND")
-        quit()
-        '''
-SERIAL_PORT = "/dev/cu.usbmodem1301"
+        res = False
 
 BAUD_RATE = 115200  # Make sure this matches your Arduino's baud rate
 
@@ -89,3 +85,4 @@ if __name__ == "__main__":
     main()
     print(CSV_FILENAME)
     print("done")
+
