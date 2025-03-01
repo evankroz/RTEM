@@ -1,24 +1,21 @@
 import serial
 from datetime import datetime
 import time
-#from CountdownTester import loading_bar
+from CountdownTester import loading_bar
 from time import sleep
 import glob
 
 report = None
-SERIAL_PORT = "/dev/cu.usbmodem1301" #this depends on the usb port your arduino is plugged in.
-                                     #check with arduino and close the app afterwards, or else you will get a error
-'''
+#SERIAL_PORT = None
+
 ports = glob.glob("/dev/cu.*")
 for port in ports:
     if "/dev/cu.usbmodem" in port:
+        res = True
         SERIAL_PORT = port
-        report = True
+        print(port.replace("/dev/cu.", ""))
     else:
-        report = False
-        print("USB MODEM PORT NOT FOUND")
-        quit()
-        '''
+        res = False
 
 BAUD_RATE = 115200  # Make sure this matches your Arduino's baud rate
 
@@ -44,7 +41,7 @@ def main():
 
                 if line:
                     current_time = time.time()
-                    elapsed_time = current_time - start_time-2.242 #approximate ping time from arduino, just about 2.2 seconds, not necessary may be removed.
+                    elapsed_time = current_time - start_time-2.242 #approximate ping time from arduino, just really slow for some reason?
                     weight = line
 
                     # Print to console
