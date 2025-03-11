@@ -6,15 +6,10 @@
 [![GitHub Forks](https://img.shields.io/github/forks/evankroz/RTEM?style=social)](https://github.com/evankroz/RTEM)
 
 
-
-<details open>
-<summary>I automatically open</summary>
-<br>
-Waaa, you see me. I thought I would be hidden ;p .
-</details>
-
 ## Structure
-``` zsh
+<details closed>
+<summary>Tree Structure of Repo.</summary>
+<br>
 .
 ├── 3DFiles
 │   ├── 0.25Mandrel Hold for Casting v9.stl
@@ -47,7 +42,11 @@ Waaa, you see me. I thought I would be hidden ;p .
 └── schematics
     ├── RTEMElectronics.kicad_sch
     └── a.txt
-```
+    ;p .
+</details>
+
+## Structure
+
 
 ## Overview
 
