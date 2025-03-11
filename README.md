@@ -7,46 +7,68 @@
 
 
 ## Structure
-<details closed>
-<summary>Tree Structure of Repo.</summary>
-<br>
-\n ├── 3DFiles
-\n│   ├── 0.25Mandrel Hold for Casting v9.stl
-\n│   ├── 0.3853Mandrel Hold for Casting.stl
-\n│   ├── 0.5Mandrel Hold for Casting v9.stl
-\n│   ├── 0.636Mandrel Hold for Casting.stl
-\n│   ├── 0.75Mandrel Hold for Casting v9.stl
-\n│   ├── 1.335MotorHolder v2.stl
-\n│   ├── 1inPVCFunnel.stl
-\n│   ├── ClosureDisks/
-\n│   ├── Fusion360Files
-\n│   │   ├── XLRTEMAssmeblyv1.f3z
-\n│   │   └── a.txt
-\n│   ├── PVCCapDrill032.stl
-\n│   ├── XLComponentCover.stl
-\n│   ├── XLEngineBoxCoverv1.stl
-\n│   ├── XLEngineBoxV15.stl
-\n│   ├── a.txt
-\n│   ├── nozzlecaststand v3.stl
-\n│   └── nozzleconcretecaste.stl
-\n├── LICENSE
-\n├── README.md
-\n├── code
-\n│   ├── LoadCellCalibration.ino
-\n│   ├── LoadCellPlotter.ino
-\n│   ├── SerialCSVLogger.py
-\n│   ├── SerialDisplayNONCSV.py
-\n│   └── a.txt
-\n├── mentions.txt
-\n└── schematics
-\n    ├── RTEMElectronics.kicad_sch
-\n    └── a.txt
+
+``` zsh
 .
+├── 3DFiles
+│   ├── 0.25Mandrel Hold for Casting v9.stl
+│   ├── 0.3853Mandrel Hold for Casting.stl
+│   ├── 0.5Mandrel Hold for Casting v9.stl
+│   ├── 0.636Mandrel Hold for Casting.stl
+│   ├── 0.75Mandrel Hold for Casting v9.stl
+│   ├── 1.335MotorHolder v2.stl
+│   ├── 1inPVCFunnel.stl
+│   ├── ClosureDisks
+│   │   ├── a.txt
+│   │   ├── concretedisk1.018.stl
+│   │   ├── concretedisk1.02.stl
+│   │   ├── concretedisk1.023.stl
+│   │   ├── concretedisk1.025.stl
+│   │   ├── concretedisk1.027.stl
+│   │   ├── concretedisk1.03.stl
+│   │   ├── concretedisk1.033.stl
+│   │   ├── concretedisk1.035.stl
+│   │   ├── concretedisk1.037.stl
+│   │   ├── concretedisk1.038.stl
+│   │   ├── concretedisk1.04.stl
+│   │   ├── concretedisk1.041.stl
+│   │   ├── concretedisk1.0415.stl
+│   │   ├── concretedisk1.042.stl
+│   │   ├── concretedisk1.0425.stl
+│   │   ├── concretedisk1.043.stl
+│   │   ├── concretedisk1.044.stl
+│   │   ├── concretedisk1.045.stl
+│   │   ├── concretedisk1.046.stl
+│   │   ├── concretedisk1.047.stl
+│   │   ├── concretedisk1.048.stl
+│   │   ├── concretedisk1.049.stl
+│   │   ├── concretedisk1.05.stl
+│   │   ├── concretedisk1.051.stl
+│   │   ├── concretedisk1.405.stl
+│   │   └── concretedisk104.stl
+│   ├── Fusion360Files
+│   │   ├── XLRTEMAssmeblyv1.f3z
+│   │   └── a.txt
+│   ├── PVCCapDrill032.stl
+│   ├── XLComponentCover.stl
+│   ├── XLEngineBoxCoverv1.stl
+│   ├── XLEngineBoxV15.stl
+│   ├── a.txt
+│   ├── nozzlecaststand v3.stl
+│   └── nozzleconcretecaste.stl
+├── LICENSE
+├── README.md
+├── code
+│   ├── LoadCellCalibration.ino
+│   ├── LoadCellPlotter.ino
+│   ├── SerialCSVLogger.py
+│   ├── SerialDisplayNONCSV.py
+│   └── a.txt
+├── mentions.txt
+└── schematics
+    ├── RTEMElectronics.kicad_sch
+    └── a.txt
 ```
-</details>
-
-## Structure
-
 
 ## Overview
 
