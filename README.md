@@ -10,8 +10,7 @@
 <details closed>
 <summary>Tree Structure of Repo.</summary>
 <br>
-.
-\n├── 3DFiles
+\n ├── 3DFiles
 \n│   ├── 0.25Mandrel Hold for Casting v9.stl
 \n│   ├── 0.3853Mandrel Hold for Casting.stl
 \n│   ├── 0.5Mandrel Hold for Casting v9.stl
@@ -42,7 +41,7 @@
 \n└── schematics
 \n    ├── RTEMElectronics.kicad_sch
 \n    └── a.txt
-    ;p .
+.
 ```
 </details>
 
