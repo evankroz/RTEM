@@ -6,6 +6,13 @@
 [![GitHub Forks](https://img.shields.io/github/forks/evankroz/RTEM?style=social)](https://github.com/evankroz/RTEM)
 
 
+
+<details open>
+<summary>I automatically open</summary>
+<br>
+Waaa, you see me. I thought I would be hidden ;p .
+</details>
+
 ## Structure
 ``` zsh
 .
