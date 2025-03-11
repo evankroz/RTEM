@@ -10,39 +10,38 @@
 <details closed>
 <summary>Tree Structure of Repo.</summary>
 <br>
-```
 .
-├── 3DFiles
-│   ├── 0.25Mandrel Hold for Casting v9.stl
-│   ├── 0.3853Mandrel Hold for Casting.stl
-│   ├── 0.5Mandrel Hold for Casting v9.stl
-│   ├── 0.636Mandrel Hold for Casting.stl
-│   ├── 0.75Mandrel Hold for Casting v9.stl
-│   ├── 1.335MotorHolder v2.stl
-│   ├── 1inPVCFunnel.stl
-│   ├── ClosureDisks/
-│   ├── Fusion360Files
-│   │   ├── XLRTEMAssmeblyv1.f3z
-│   │   └── a.txt
-│   ├── PVCCapDrill032.stl
-│   ├── XLComponentCover.stl
-│   ├── XLEngineBoxCoverv1.stl
-│   ├── XLEngineBoxV15.stl
-│   ├── a.txt
-│   ├── nozzlecaststand v3.stl
-│   └── nozzleconcretecaste.stl
-├── LICENSE
-├── README.md
-├── code
-│   ├── LoadCellCalibration.ino
-│   ├── LoadCellPlotter.ino
-│   ├── SerialCSVLogger.py
-│   ├── SerialDisplayNONCSV.py
-│   └── a.txt
-├── mentions.txt
-└── schematics
-    ├── RTEMElectronics.kicad_sch
-    └── a.txt
+\n├── 3DFiles
+\n│   ├── 0.25Mandrel Hold for Casting v9.stl
+\n│   ├── 0.3853Mandrel Hold for Casting.stl
+\n│   ├── 0.5Mandrel Hold for Casting v9.stl
+\n│   ├── 0.636Mandrel Hold for Casting.stl
+\n│   ├── 0.75Mandrel Hold for Casting v9.stl
+\n│   ├── 1.335MotorHolder v2.stl
+\n│   ├── 1inPVCFunnel.stl
+\n│   ├── ClosureDisks/
+\n│   ├── Fusion360Files
+\n│   │   ├── XLRTEMAssmeblyv1.f3z
+\n│   │   └── a.txt
+\n│   ├── PVCCapDrill032.stl
+\n│   ├── XLComponentCover.stl
+\n│   ├── XLEngineBoxCoverv1.stl
+\n│   ├── XLEngineBoxV15.stl
+\n│   ├── a.txt
+\n│   ├── nozzlecaststand v3.stl
+\n│   └── nozzleconcretecaste.stl
+\n├── LICENSE
+\n├── README.md
+\n├── code
+\n│   ├── LoadCellCalibration.ino
+\n│   ├── LoadCellPlotter.ino
+\n│   ├── SerialCSVLogger.py
+\n│   ├── SerialDisplayNONCSV.py
+\n│   └── a.txt
+\n├── mentions.txt
+\n└── schematics
+\n    ├── RTEMElectronics.kicad_sch
+\n    └── a.txt
     ;p .
 ```
 </details>
