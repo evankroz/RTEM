@@ -1,3 +1,6 @@
+#Python Dependencies for RTEM
+#Most are already installed.
+
 appnope                  ==  0.1.4
 asttokens                ==  3.0.0
 attrs                    ==  25.2.0
