@@ -126,7 +126,7 @@ For questions, bug reports, or feature requests, please open an issue on the [Gi
 2.  Install the required Python libraries:
 
     ```
-    pip install -r requirements.txt #need to create requirements.txt file in future
+    pip install -r requirements.txt
     ```
 
 ### Usage
