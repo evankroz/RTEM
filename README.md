@@ -122,6 +122,8 @@ The following items have been verified to work, and reliably so.
 
 ### Usage
 
+>>Note: Main RTEM should be connected to laptop through cable or connection (soon) WITHOUT ignitors/leads in the motor. Relay triggers upon connection and WILL PREMATURELY IGNITE MOTOR. 
+
 1.  Navigate to the `code` directory:
 
     ```
