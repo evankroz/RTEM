@@ -102,6 +102,7 @@ The following items have been verified to work, and reliably so.
 ## How to Build A Rocket Motor
 
 ### SAFETY
+> As mentioned previously almost all general safety guidelines and background information on rocket safety can be found [here](https://www.nakka-rocketry.net/safety.html#:~:text=Wear%20appropriate%20safety%20apparel%2C%20including,in%20particular%2C%20sensitivities%20and%20incompatibilities.). More project-specific safety information and guidelines will be discussed in the section that follows.
 
 
 ## How To Build The RTEM
