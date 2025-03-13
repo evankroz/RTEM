@@ -5,6 +5,30 @@
 [![GitHub Stars](https://img.shields.io/github/stars/evankroz/RTEM?style=social)](https://github.com/evankroz/RTEM)
 [![GitHub Forks](https://img.shields.io/github/forks/evankroz/RTEM?style=social)](https://github.com/evankroz/RTEM)
 
+## Disclaimer!
+
+By accessing and using this rocketry website, you acknowledge that you are aware of the risks associated with rocketry activities. You understand that any information or guidance provided is for educational purposes only, and you assume full responsibility for any actions taken. The website owner(me) and contributors are not liable for any harm or damage resulting from the use of this information. All rocketry activities should be conducted at your own risk and in compliance with local laws and safety regulations. Please treat any and all rocket motors as bombs until fired and take necessary precautions to minimize risk. Although most safety information will be covered in this guide, common sense is necessary.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and commit them with descriptive messages.
+4.  Submit a pull request.
+
+## License
+
+This project is licensed under the GNU General Public License v3. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Evan Kroz - evan.kroz@gmail.com
+
+## Support
+
+For questions, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/evankroz/RTEM/issues).
 
 ## Structure
 
@@ -57,38 +81,32 @@ The Rocket Thrust Evaluation Module (RTEM) is an open-source project dedicated t
 
 ### Prerequisites
 
-*   [Python](https://www.python.org/downloads/) (3.7 or higher)
-*   [Arduino IDE](https://www.arduino.cc/en/software) (if using the data acquisition components)
+* [Python](https://www.python.org/downloads/) (3.7 or higher)
+* [Arduino IDE](https://www.arduino.cc/en/software) (if using the data acquisition components)
+* [HX711 Arduino Library](https://github.com/bogde/HX711) (Install via the Arduino Library Manager)
 
+### Recommended "Requirements"
 
-## Contributing
+The following items have been verified to work, and reliably so.
 
-Contributions are welcome! Please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Make your changes and commit them with descriptive messages.
-4.  Submit a pull request.
-
-## License
-
-This project is licensed under the GNU General Public License v3. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-Evan Kroz - evan.kroz@gmail.com
-
-## Support
-
-For questions, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/evankroz/RTEM/issues).
+* [Sovol SV06 3D Printer](https://www.sovol3d.com/products/sovol-sv06-best-budget-3d-printer-for-beginner?srsltid=AfmBOor-8pa9bs1p1uqZoSzxjIPdzcbphXCHgTdLtcDfJDk9fETHXUum) (Cheap and Reliable, Recommended Filament: PETG)
+* [Elegoo Arduino Uno R3](https://www.amazon.com/dp/B01EWOE0UU?ref=ppx_yo2ov_dt_b_fed_asin_title)(Cheap and reliable, expanding to esp32 modules soon!)
+* [HX711 Module](https://www.amazon.com/dp/B079LVMC6X?ref=ppx_yo2ov_dt_b_fed_asin_title)(Others exist (for cheaper...), but out of the many tested, this is the most reliable in terms of SPS and noise)
+* [Loooong Printer Cable](https://www.amazon.com/gp/product/B0DHJK5648/ref=ox_sc_saved_title_3?smid=A6T4JXBFY4LP2&psc=1)(Allows to keep expensive electornics ($1000+ laptops) further away from the potential bomb, esp32 wireless comms coming soon!)
+* [Aluminum Round Bars](https://www.onlinemetals.com/en/buy/aluminum-round-bar?_gl=1*9q53ki*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA-ty8BhA_EiwAkyoa37jQ9IgVjLr5L9LlD2e6fZ1aLD96FopDmEb4iOxVr1FgKVagvYEVMhoC7oEQAvD_BwE)(Quite reliable raw material supplier for casting motors)
+* [Load Cell](https://www.amazon.com/dp/B096FKK8KS?ref=ppx_yo2ov_dt_b_fed_asin_title)(3D Files dimensioned under this load cell, recommended for use (20kg))
+* [5V Relay Module](https://www.amazon.com/Tolako-Arduino-Indicator-Channel-Official/dp/B00VRUAHLE/ref=sr_1_8?crid=1ZQF4U026ZM0L&dib=eyJ2IjoiMSJ9.h0EVR8TCbppzx_vKt7A72at8MIXTfm3V6LeEWWapL6oajmAMqI6frB3kFQ1_0h3gyzNVlf-r5nav-8fnOF96wuleZ1DIJsZLTE1V_K5xThTxPldw-DpU1rNY_5zdYexwmC2pFPIO7nFN3jhYitxQ-ZoVsgXS2pcjYRvZbdI2HLumMmhqH_MvDm4KcOHnGUpqdDVrMFzwL9TYrv1CuWxm-tIhQljGd6rbnm9naaaPA1w.C-xjg1RlJiGe1Jlr0uIx-WcDbQ93ys_un8CBElsBUCU&dib_tag=se&keywords=5v+relay&qid=1741825163&sprefix=5v+rela%2Caps%2C94&sr=8-8)(5V Relay - quite reliable)
 
 
 
+## Installation 
 
+### Installing the HX711 Arduino Library
 
-##  <---------> Work in Progress <--------->
-
-### Installation 
+1. Open the Arduino IDE.
+2. Go to `Sketch` > `Include Library` > `Manage Libraries...`.
+3. In the Library Manager, search for `HX711`.
+4. Click `Install` on the `HX711` library by Rob Tillaart.
 
 1.  Clone the repository:
 
@@ -114,4 +132,4 @@ For questions, bug reports, or feature requests, please open an issue on the [Gi
     ```
     python3 SerialDisplayNONCSV.py #for non logging purposes
     python3 SerialCSVLogger.py #for logging rocket motor thrust to a .csv file (recommended)
-    ```
+    '''
