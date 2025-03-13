@@ -122,7 +122,7 @@ The following items have been verified to work, and reliably so.
 
 ### Usage
 
->>Note: Main RTEM should be connected to laptop through cable or connection (soon) WITHOUT ignitors/leads in the motor. Relay triggers upon connection and WILL PREMATURELY IGNITE MOTOR. 
+>Note: Main RTEM should be connected to laptop through cable or connection (soon) WITHOUT ignitors/leads in the motor. Relay triggers upon connection and WILL PREMATURELY IGNITE MOTOR. 
 
 1.  Navigate to the `code` directory:
 
@@ -131,11 +131,11 @@ The following items have been verified to work, and reliably so.
     ```
 2.  Run the main script:
 
-    >>For NON-Logging Purposes/Testing Ignitors etc:
+    >For NON-Logging Purposes/Testing Ignitors etc:
     ```
     python3 SerialDisplayNONCSV.py 
     ```
-    >>For CSV-Logging Purposes/Writing to Excel File:
+    >For CSV-Logging Purposes/Writing to Excel File:
     ```
     python3 SerialCSVLogger.py 
     ```
