@@ -129,9 +129,11 @@ The following items have been verified to work, and reliably so.
     ```
 2.  Run the main script:
 
+    For NON-Logging Purposes/Testing Ignitors etc:
     ```
-    python3 SerialDisplayNONCSV.py #for non logging purposes
+    python3 SerialDisplayNONCSV.py 
     ```
+    For CSV-Logging Purposes/Writing to Excel File:
     ```
-    python3 SerialCSVLogger.py #for logging rocket motor thrust to a .csv file (recommended)
+    python3 SerialCSVLogger.py 
     ```
