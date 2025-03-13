@@ -98,6 +98,26 @@ The following items have been verified to work, and reliably so.
 * [5V Relay Module](https://www.amazon.com/Tolako-Arduino-Indicator-Channel-Official/dp/B00VRUAHLE/ref=sr_1_8?crid=1ZQF4U026ZM0L&dib=eyJ2IjoiMSJ9.h0EVR8TCbppzx_vKt7A72at8MIXTfm3V6LeEWWapL6oajmAMqI6frB3kFQ1_0h3gyzNVlf-r5nav-8fnOF96wuleZ1DIJsZLTE1V_K5xThTxPldw-DpU1rNY_5zdYexwmC2pFPIO7nFN3jhYitxQ-ZoVsgXS2pcjYRvZbdI2HLumMmhqH_MvDm4KcOHnGUpqdDVrMFzwL9TYrv1CuWxm-tIhQljGd6rbnm9naaaPA1w.C-xjg1RlJiGe1Jlr0uIx-WcDbQ93ys_un8CBElsBUCU&dib_tag=se&keywords=5v+relay&qid=1741825163&sprefix=5v+rela%2Caps%2C94&sr=8-8)(5V Relay - quite reliable)
 
 
+<---/In Progress/--->
+## How to Build A Rocket Motor
+
+### SAFETY
+
+
+
+
+## How To Build The RTEM
+
+### 3D Printed Parts
+
+>If you do not have access to a 3D Printer there are no workarounds as of right now. :(
+
+### Electrical Components
+
+
+<-------//------->
+
+
 
 ## Installation 
 
