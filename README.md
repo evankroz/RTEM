@@ -104,15 +104,13 @@ The following items have been verified to work, and reliably so.
 ### SAFETY
 
 
-
-
 ## How To Build The RTEM
 
-### 3D Printed Parts
+#### 3D Printed Parts
 
 >If you do not have access to a 3D Printer there are no workarounds as of right now. :(
 
-### Electrical Components
+#### Electrical Components
 
 
 <-------//------->

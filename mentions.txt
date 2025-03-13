@@ -1,3 +1,4 @@
-Here are some of the important libraries that were put to great use in the process of building RTEM:
+Some mentions that greatly helped with the process and inspiration behind building the RTEM
 
 1. https://github.com/RobTillaart/HX711 (This was used for calibration of the load cell)
+2. https://www.youtube.com/channel/UCILl8ozWuxnFYXIe2svjHhg (BPS.space, great channel for rocketry based videos)
