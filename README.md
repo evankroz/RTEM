@@ -127,13 +127,16 @@ The following items have been verified to work, and reliably so.
 4. Click `Install` on the `HX711` library by Rob Tillaart.
 
 1.  Clone the repository:
-
+    > Clone Repo.
     ```
     git clone https://github.com/evankroz/RTEM.git
+    ```
+    > Navigate to RTEM directory
+    ```
     cd RTEM
     ```
 2.  Install the required Python libraries:
-
+    > Recursively install python packages from requirements.txt
     ```
     pip install -r requirements.txt
     ```
