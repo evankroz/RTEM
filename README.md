@@ -132,4 +132,4 @@ The following items have been verified to work, and reliably so.
     ```
     python3 SerialDisplayNONCSV.py #for non logging purposes
     python3 SerialCSVLogger.py #for logging rocket motor thrust to a .csv file (recommended)
-    '''
+    ```
