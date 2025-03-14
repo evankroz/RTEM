@@ -3,3 +3,4 @@ Some mentions that greatly helped with the process and inspiration behind buildi
 1. https://github.com/RobTillaart/HX711 (This was used for calibration of the load cell)
 2. https://www.youtube.com/channel/UCILl8ozWuxnFYXIe2svjHhg (BPS.space, great channel for rocketry based videos)
 3. https://www.nakka-rocketry.net/ (Indisputably one of the best amateur rocketry information source out there)
+4. http://server2.nrvr.org/files/Rocket_Propulsion_Elements_8th_Edition_by_Oscar_Biblarz_George_P._Sutton.pdf (Great PDF to read on general rocketry elements)
