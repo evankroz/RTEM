@@ -7,7 +7,7 @@
 
 ## Disclaimer!
 
-By accessing and using this rocketry website, you acknowledge that you are aware of the risks associated with rocketry activities. You understand that any information or guidance provided is for educational purposes only, and you assume full responsibility for any actions taken. The website owner(me) and contributors are not liable for any harm or damage resulting from the use of this information. All rocketry activities should be conducted at your own risk and in compliance with local laws and safety regulations. Please treat any and all rocket motors as bombs until fired and take necessary precautions to minimize risk. Although most safety information will be covered in this guide, common sense is necessary.
+By accessing and using this rocketry repository, you acknowledge that you are aware of the risks associated with rocketry activities. You understand that any information or guidance provided is for educational purposes only, and you assume full responsibility for any actions taken. The repository owner(me) and contributors are not liable for any harm or damage resulting from the use of this information. All rocketry activities should be conducted at your own risk and in compliance with local laws and safety regulations. Please treat any and all rocket motors as bombs until fired and take necessary precautions to minimize risk. Although most safety information will be covered in this guide, common sense is necessary.
 
 ## Contributing
 
