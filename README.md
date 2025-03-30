@@ -55,7 +55,7 @@ For questions, bug reports, or feature requests, please open an issue on the [Gi
 │   └── nozzleconcretecaste.stl
 ├── LICENSE
 ├── README.md
-├── code
+├── src
 │   ├── LoadCellCalibration.ino
 │   ├── LoadCellPlotter.ino
 │   ├── SerialCSVLogger.py
