@@ -2,6 +2,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QPu
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 import numpy as np
+from demo_plot import create_demo_plot
 
 #TODO: Create App(QApplication) instead of QMainWindow?
 
@@ -26,18 +27,7 @@ class App(QMainWindow):
         self.plot()
 
     def plot(self):
-        self.canvas.figure.clear()
-        ax = self.canvas.figure.add_subplot(111)
-        
-        x = np.linspace(0, 4*np.pi, 100)
-        ax.plot(x, np.sin(x), label='Sine Wave')
-        ax.plot(x, np.cos(x), label='Cosine Wave', linestyle='--')
-        ax.plot(x, 0.5*np.tanh(x), label='Activation', color='red')
-        
-        ax.set_title("Signal Demonstration")
-        ax.set_xlabel("Time (s)")
-        ax.set_ylabel("Amplitude")
-        ax.legend()
-        ax.grid(True)
-        
-        self.canvas.draw()
+        self.canvas.figure.clear()  # Clear the figure
+        ax = self.canvas.figure.add_subplot(111)  # Create a new subplot
+        create_demo_plot(ax)  # Pass the Axes object to the function
+        self.canvas.draw()  # Redraw the canvas
