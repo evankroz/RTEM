@@ -7,8 +7,8 @@ from time import sleep
 import glob
 
 #scanning for usb modem ports on laptop'''
-#
-#
+
+
 ports = glob.glob("/dev/cu.*")
 for port in ports:
     if "/dev/cu.usbmodem" in port:
@@ -39,6 +39,10 @@ def countdown_func():
 
 
 def main():
+    #record both time and thrust as a return for the main function
+    thrust = []
+    time = []
+
     try:
         # Open serial port
         with serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1) as ser:
@@ -64,7 +68,12 @@ def main():
                     if line:
                         current_time = time.time()
                         elapsed_time = current_time - start_time - 2.242
+
+                    
                         weight = float(line)
+
+                        thrust.append(weight)
+                        time.append(elapsed_time)
 
                         # Write to CSV
                         csv_writer.writerow([f"{elapsed_time:.3f}", weight])
@@ -79,10 +88,13 @@ def main():
     except Exception as e:
         print(f"An error occurred: {e}")
 
+    results = [thrust, time]
+    return results
 
 if __name__ == "__main__":
     countdown_func()
     main()
     print(CSV_FILENAME)
     print("done")
+    print(main())
 
