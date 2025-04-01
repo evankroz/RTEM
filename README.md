@@ -103,11 +103,11 @@ The following items have been verified to work, and reliably so.
 * [Sovol SV06 3D Printer](https://www.sovol3d.com/products/sovol-sv06-best-budget-3d-printer-for-beginner?srsltid=AfmBOor-8pa9bs1p1uqZoSzxjIPdzcbphXCHgTdLtcDfJDk9fETHXUum) (Cheap and Reliable, Recommended Filament: PETG)
 * [Elegoo Arduino Uno R3](https://www.amazon.com/dp/B01EWOE0UU?ref=ppx_yo2ov_dt_b_fed_asin_title)(Cheap and reliable, expanding to esp32 modules soon!)
 * [HX711 Module](https://www.amazon.com/dp/B079LVMC6X?ref=ppx_yo2ov_dt_b_fed_asin_title)(Others exist (for cheaper...), but out of the many tested, this is the most reliable in terms of SPS and noise)
-* [Loooong Printer Cable](https://www.amazon.com/gp/product/B0DHJK5648/ref=ox_sc_saved_title_3?smid=A6T4JXBFY4LP2&psc=1)(Allows to keep expensive electornics ($1000+ laptops) further away from the potential bomb, esp32 wireless comms coming soon!)
+* [Long Printer Cable](https://www.amazon.com/gp/product/B0DHJK5648/ref=ox_sc_saved_title_3?smid=A6T4JXBFY4LP2&psc=1)(Allows to keep expensive electornics ($1000+ laptops) further away from motor, esp32 wireless comms coming soon!)
 * [Aluminum Round Bars](https://www.onlinemetals.com/en/buy/aluminum-round-bar?_gl=1*9q53ki*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA-ty8BhA_EiwAkyoa37jQ9IgVjLr5L9LlD2e6fZ1aLD96FopDmEb4iOxVr1FgKVagvYEVMhoC7oEQAvD_BwE)(Quite reliable raw material supplier for casting motors)
 * [Load Cell](https://www.amazon.com/dp/B096FKK8KS?ref=ppx_yo2ov_dt_b_fed_asin_title)(3D Files dimensioned under this load cell, recommended for use (20kg))
 * [5V Relay Module](https://www.amazon.com/Tolako-Arduino-Indicator-Channel-Official/dp/B00VRUAHLE/ref=sr_1_8?crid=1ZQF4U026ZM0L&dib=eyJ2IjoiMSJ9.h0EVR8TCbppzx_vKt7A72at8MIXTfm3V6LeEWWapL6oajmAMqI6frB3kFQ1_0h3gyzNVlf-r5nav-8fnOF96wuleZ1DIJsZLTE1V_K5xThTxPldw-DpU1rNY_5zdYexwmC2pFPIO7nFN3jhYitxQ-ZoVsgXS2pcjYRvZbdI2HLumMmhqH_MvDm4KcOHnGUpqdDVrMFzwL9TYrv1CuWxm-tIhQljGd6rbnm9naaaPA1w.C-xjg1RlJiGe1Jlr0uIx-WcDbQ93ys_un8CBElsBUCU&dib_tag=se&keywords=5v+relay&qid=1741825163&sprefix=5v+rela%2Caps%2C94&sr=8-8)(5V Relay - quite reliable)
-* [1" Internal PVC Piping](homedepot.com)(PVC is very danegrous to make rocket motors out of but with necessary precautions becomes cheap and reliable)
+* [1" Internal PVC Piping](homedepot.com)(PVC is very dangerous to make rocket motors out of but with necessary precautions becomes cheap and reliable)
 * [Rockite Concrete](amazon.com)(Rockite concrete made for casting both the forward closure and the nozzle for better performance)
 * [1.315" ID PVC Endcap](homedepot.com)(This is used as the primary component of the nozzle)
   
@@ -162,10 +162,10 @@ This is quite an extensive BOM, but most of them are quite cheap and easy to acq
 
 >Note: Main RTEM should be connected to laptop through cable or connection (soon) WITHOUT ignitors/leads in the motor. Relay triggers upon connection and WILL PREMATURELY IGNITE MOTOR. 
 
-1.  Navigate to the `code` directory:
+1.  Navigate to the `src` directory:
 
     ```
-    cd code
+    cd src
     ```
 2.  Run the main script:
 
@@ -173,7 +173,7 @@ This is quite an extensive BOM, but most of them are quite cheap and easy to acq
     ```
     python3 SerialDisplayNONCSV.py 
     ```
-    >For CSV-Logging Purposes/Writing to Excel File:
+    >For CSV-Logging Purposes/Writing to Excel File, will ask permission to start and give 15 second countdown:
     ```
     python3 SerialCSVLogger.py 
     ```
