@@ -42,7 +42,7 @@ For questions, bug reports, or feature requests, please open an issue on the [Gi
 │   ├── 0.75Mandrel Hold for Casting v9.stl
 │   ├── 1.335MotorHolder v2.stl
 │   ├── 1inPVCFunnel.stl
-│   ├── ClosureDisks/.
+│   ├── ClosureDisks/
 │   ├── Fusion360Files
 │   │   ├── XLRTEMAssmeblyv1.f3z
 │   │   └── a.txt
@@ -55,16 +55,27 @@ For questions, bug reports, or feature requests, please open an issue on the [Gi
 │   └── nozzleconcretecaste.stl
 ├── LICENSE
 ├── README.md
+├── mentions.md
+├── requirements.txt
+├── schematics
+│   ├── RTEMElectronics.kicad_sch
+│   └── a.txt
 ├── src
 │   ├── LoadCellCalibration.ino
 │   ├── LoadCellPlotter.ino
 │   ├── SerialCSVLogger.py
 │   ├── SerialDisplayNONCSV.py
-│   └── a.txt
-├── mentions.txt
-└── schematics
-    ├── RTEMElectronics.kicad_sch
-    └── a.txt
+│   ├── a.txt
+│   └── wireless.ino
+└── ui
+    ├── __pycache__
+    │   └── app.cpython-313.pyc
+    ├── app.py
+    ├── demo_plot.py
+    ├── graph.py
+    ├── main.py
+    └── results.py
+
 ```
 
 ## Overview
